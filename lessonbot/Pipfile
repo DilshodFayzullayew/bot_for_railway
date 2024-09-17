@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+aiogram = "*"
+pandas = "*"
+pyarrow = "*"
+openpyxl = "*"
+aiohttp = "==3.9.1"
+telebot = "*"
+tabulate = "*"
+matplotlib = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
